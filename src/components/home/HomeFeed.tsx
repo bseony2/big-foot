@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ReactElement } from "react";
+
 function HomeContainer(): ReactElement {
   const feedData = [
     {
@@ -31,13 +32,13 @@ function HomeContainer(): ReactElement {
     },
   ];
   return (
-    <section className="text-gray-600 body-font align-middle">
-      <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-wrap -m-3">
+    <section className="text-gray-600 body-font ">
+      <div className=" flex justify-center px-5 py-24 mx-auto">
+        <div className="flex justify-center flex-wrap flex-col -m-3">
           {feedData.map((feed, idx) => {
             return (
-              <div className="p-4 md:w-1/3" key={idx.toString()}>
-                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <div className=" p-4 " key={idx.toString()}>
+                <div className=" h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                   <Image
                     className="lg:h-48 md:h-36 w-full object-cover object-center"
                     src="https://dummyimage.com/720x400"

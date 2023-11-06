@@ -1,8 +1,8 @@
 import SearchContainer from "components/search/SearchContainer";
 export default function SearchPage() {
   return (
-    <section>
+    <div>
       <SearchContainer></SearchContainer>
-    </section>
+    </div>
   );
 }
