@@ -11,7 +11,7 @@ const zero = (value: number | string) =>
   value.toString().length === 1 ? `0${value}` : `${value}`;
 
 // 날짜 포멧형식 변환
-export const dateFormater = (format: string, date: number | string) => {
+export const dateFormatter = (format: string, date: number | string) => {
   const date2 = new Date(date); // Date 객체로 만들어줍니다.
   return format.replace(
     /(yyyy|YYYY|mm|dd|MM|DD|H|i|s)/g,

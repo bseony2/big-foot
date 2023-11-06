@@ -21,12 +21,12 @@ const style = css`
   }
 `;
 
-interface IProps {
+interface ContentBodyProps {
   type?: "default" | "with-shape";
   children: ReactNode | ReactNode[];
 }
 
-function ContentBody({ type, children }: IProps): ReactElement {
+function ContentBody({ type, children }: ContentBodyProps): ReactElement {
   return (
     <div className={clsx("content-body", type)}>
       {children}
