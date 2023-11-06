@@ -172,7 +172,7 @@ const config: Config = {
     },
     extend: {
       colors: {
-        "primary-500": "#49B2D4",
+        "primary-500": "#778899",
         "secondary-500": "#FFB620",
         blue: "#0095F6",
         "logout-btn": "#FF5A5A",
