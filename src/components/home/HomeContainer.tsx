@@ -3,7 +3,7 @@ import HomeFeed from './HomeFeed';
 
 function HomeContainer(): ReactElement {
   return (
-    <div className="flex justify-center">
+    <div>
       <HomeFeed />
     </div>
   );

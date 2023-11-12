@@ -32,7 +32,7 @@ function HomeContainer(): ReactElement {
     <div>
       {feedData.map((feed, idx) => {
         return (
-          <div className="card w-96 bg-base-100 shadow-xl" key={idx.toString()}>
+          <div className="card w-96 bg-base-100 shadow-xl m-10" key={idx.toString()}>
             <figure>
               <Image
                 className="lg:h-48 md:h-36 w-full object-cover object-center"
