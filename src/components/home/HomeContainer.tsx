@@ -1,13 +1,11 @@
-import { ReactElement } from "react";
-import ContentBody from "components/layouts/ContentBody";
-import HomeFeed from "./HomeFeed";
+import {ReactElement} from 'react';
+import HomeFeed from './HomeFeed';
 
 function HomeContainer(): ReactElement {
   return (
-    <ContentBody>
+    <div className="flex justify-center">
       <HomeFeed />
-      <HomeFeed />
-    </ContentBody>
+    </div>
   );
 }
 
