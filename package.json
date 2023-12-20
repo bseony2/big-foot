@@ -1,9 +1,12 @@
 {
   "name": "sample",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "packageManager": "yarn@4.0.2",
+  "scripts": {
+    "release": "commit-and-tag-version"
+  },
   "devDependencies": {
     "commit-and-tag-version": "^12.0.0"
   }
