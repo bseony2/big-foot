@@ -1,0 +1,46 @@
+{
+  "types": [
+    {
+      "type": "feat",
+      "section": "Features"
+    },
+    {
+      "type": "fix",
+      "section": "Bug Fixes"
+    },
+    {
+      "type": "hotfix",
+      "section": "Critical Bug Fixes"
+    },
+    {
+      "type": "chore",
+      "hidden": true
+    },
+    {
+      "type": "docs",
+      "hidden": true
+    },
+    {
+      "type": "refactor",
+      "hidden": true
+    },
+    {
+      "type": "perf",
+      "hidden": true
+    },
+    {
+      "type": "test",
+      "hidden": true
+    },
+    {
+      "type": "bump",
+      "hidden": true
+    }
+  ],
+  "releaseCommitMessageFormat": "[Bump] release {{currentTag}}",
+  "tagPrefix": "",
+  "parserOpts": {
+    "headerPattern": "^\\[([a-zA-Z]+)\\]\\s(.+)$",
+    "headerCorrespondence": ["type", "subject"]
+  }
+}
