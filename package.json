@@ -1,0 +1,10 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "packageManager": "yarn@4.0.2",
+  "devDependencies": {
+    "commit-and-tag-version": "^12.0.0"
+  }
+}
