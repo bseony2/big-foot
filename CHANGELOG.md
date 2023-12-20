@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.0.4](https://github.com/bseony2/big-foot/compare/1.0.3...1.0.4) (2023-12-20)
+
+
+### Bug Fixes
+
+* asdf ([95d536e](https://github.com/bseony2/big-foot/commit/95d536e343c2e6159ddd5a434be6c17098742160))
+
 ## [1.0.3](https://github.com/bseony2/big-foot/compare/1.0.2...1.0.3) (2023-12-20)
 
 ## [1.0.2](https://github.com/bseony2/big-foot/compare/1.0.1...1.0.2) (2023-12-20)
